@@ -2,7 +2,9 @@
 
 ![Golang RegExp Ranger](https://raw.githubusercontent.com/SimonWaldherr/ranger/master/ranger.gif)
 
-[ranger.go](https://simonwaldherr.de/go/ranger) generates regexp code for numeric ranges and is inspired by [dimka665/range-regex](https://github.com/dimka665/range-regex)
+[ranger.go](https://simonwaldherr.de/go/ranger) generates regexp code for numeric ranges and is inspired by [dimka665/range-regex](https://github.com/dimka665/range-regex)  
+
+[![Build Status](https://travis-ci.org/SimonWaldherr/ranger.svg?branch=master)](https://travis-ci.org/SimonWaldherr/ranger)
 
 ## what
 
