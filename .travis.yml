@@ -1,0 +1,18 @@
+os:
+	- linux
+language: go
+sudo: false
+go:
+	- 1.6
+	- 1.7
+	- master
+install:
+	- go get -t -u -v simonwaldherr.de/go/ranger
+script:
+	- go test
+notifications: 
+	email: 
+		recipients:
+			- travis@simon.waldherr.eu
+		on_success: always
+		on_failure: always
