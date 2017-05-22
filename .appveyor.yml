@@ -5,29 +5,29 @@ os:
 - Visual Studio 2015
 
 build:
-	verbosity: detailed
+  verbosity: detailed
 
 notifications:
 - provider: Email
-	to:
-	- travis@simon.waldherr.eu
-	on_build_success: true
-	on_build_failure: true
-	on_build_status_changed: true
+  to:
+  - travis@simon.waldherr.eu
+  on_build_success: true
+  on_build_failure: true
+  on_build_status_changed: true
 
 clone_folder: c:\gopath\src\github.com\simonwaldherr\ranger
 
 environment:
-	GOPATH: c:\gopath
+  GOPATH: c:\gopath
 
 install:
-	- echo %PATH%
-	- echo %GOPATH%
-	- git submodule update --init --recursive
-	- go version
-	- go env
-	- go get -u -t simonwaldherr.de/go/ranger/...
-	- go get -v -t ./...
+  - echo %PATH%
+  - echo %GOPATH%
+  - git submodule update --init --recursive
+  - go version
+  - go env
+  - go get -u -t simonwaldherr.de/go/ranger/...
+  - go get -v -t ./...
 
 build_script:
-	- go test -v ./...
+  - go test -v ./...
