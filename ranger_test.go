@@ -40,11 +40,11 @@ var tests = []test{{
 func Test_Compile(t *testing.T) {
 	for _, tt := range tests {
 		min, max := tt.min, tt.max
-		
+
 		re := Compile(min, max)
-		
+
 		min, max = abs(min), abs(max)
-		
+
 		if min > max {
 			min, max = max, min
 		}

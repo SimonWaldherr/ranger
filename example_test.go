@@ -1,9 +1,9 @@
 package ranger_test
 
 import (
-	"simonwaldherr.de/go/ranger"
 	"fmt"
 	"regexp"
+	"simonwaldherr.de/go/ranger"
 )
 
 func ExampleCompile() {

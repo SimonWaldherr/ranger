@@ -24,6 +24,7 @@ func fillWith(integer, count int, char string) int {
 	return int(i)
 }
 
+// Compile generates a regular expression that matches any number between the two given numbers
 func Compile(min, max int) string {
 	var pos []string
 
@@ -95,7 +96,7 @@ func rangePatterns(startint, stopint int) string {
 		return ""
 	}
 
-	for k, _ := range fmt.Sprint(start) {
+	for k := range fmt.Sprint(start) {
 		startdigit, stopdigit = start[k]|'0', stop[k]|'0'
 
 		if startdigit == stopdigit || stopdigit == '0' {
