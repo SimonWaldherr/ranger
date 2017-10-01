@@ -34,3 +34,8 @@ because we can
 ## is it "Production Ready™"?
 
 maybe. maybe not
+
+## is it fast?
+
+no, definitely not!  
+take a look at the benchmark in [ranger_test.go](https://github.com/SimonWaldherr/ranger/blob/master/ranger_test.go) before using it.
