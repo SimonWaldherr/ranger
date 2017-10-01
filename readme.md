@@ -6,7 +6,8 @@
 
 [![Build Status](https://travis-ci.org/SimonWaldherr/ranger.svg?branch=master)](https://travis-ci.org/SimonWaldherr/ranger) 
 [![Go Report Card](https://goreportcard.com/badge/github.com/simonwaldherr/ranger)](https://goreportcard.com/report/github.com/simonwaldherr/ranger) 
-[![codebeat badge](https://codebeat.co/badges/bb574430-ee9e-4d62-a6d0-6daff78a5c08)](https://codebeat.co/projects/github-com-simonwaldherr-ranger-master)
+[![codebeat badge](https://codebeat.co/badges/bb574430-ee9e-4d62-a6d0-6daff78a5c08)](https://codebeat.co/projects/github-com-simonwaldherr-ranger-master) 
+[![BCH compliance](https://bettercodehub.com/edge/badge/SimonWaldherr/ranger?branch=master)](https://bettercodehub.com/) 
 [![GoDoc](https://img.shields.io/badge/godoc-reference-blue.svg)](https://godoc.org/github.com/SimonWaldherr/ranger) 
 
 ## what
